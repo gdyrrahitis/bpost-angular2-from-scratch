@@ -8,7 +8,7 @@ The example presents a minimal structure for the application, setting `npm` depe
 3. Application launches in your browser
 
 # Article
-This is a part of an article regarding Angular2, which can be found in [this link{pending...}]
+This is part of a post on Angular2 series, which can be found in [here](https://georgedyrra.wordpress.com/2016/08/14/angular2-from-scratch-getting-to-know-angular2/)
 
 # Licence
 Apache License Version 2.0
