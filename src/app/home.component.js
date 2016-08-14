@@ -16,10 +16,10 @@ let HomeComponent = class HomeComponent {
 };
 HomeComponent = __decorate([
     core_1.Component({
-        moduleId: module.Id,
+        moduleId: module.id,
         selector: "home-component",
-        templateUrl: "src/app/home.component.html",
-        styleUrls: ["src/app/home.component.css"]
+        templateUrl: "./home.component.html",
+        styleUrls: ["./home.component.css"]
     }), 
     __metadata('design:paramtypes', [])
 ], HomeComponent);
