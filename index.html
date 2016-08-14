@@ -1,0 +1,40 @@
+<!DOCTYPE>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+
+    <!-- for ie to work with edge simulation -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Fixes viewport zoom on smaller devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Angular2 From Scratch</title>
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+    <!--Dependencies. Required to load-->
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+
+    <!--Module loader-->
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="systemjs-config.js"></script>
+    <script>
+        System.import("app").catch(function(err) { console.log(err); });
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="main-title">Welcome to Angular2!</h1>
+        <!--Using AppComponent's selector. Angular2 is running-->
+        <app-component>
+            <p class="loader">Application is loading...</p>
+        </app-component>
+    </div>
+</body>
+
+</html>

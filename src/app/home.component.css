@@ -1,0 +1,6 @@
+.greeting-inner {
+    background-color: #ccc;
+    display: inline-block;
+    padding: 35px;
+    color: initial;
+}

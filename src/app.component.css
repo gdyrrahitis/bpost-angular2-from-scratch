@@ -1,0 +1,7 @@
+.greeting-outer {
+    color: #666;
+    background-color: #bbb;
+    font-weight: 300;
+    display: block;
+    padding: 35px;
+}
