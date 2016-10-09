@@ -1,8 +1,8 @@
-import { bootstrap } from '@angular/platform-browser-dynamic';
-import { AppComponent } from './app.component';
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { AppModule } from './app.module';
 
 
-bootstrap(AppComponent).then(
+platformBrowserDynamic().bootstrapModule(AppModule).then(
     success => console.log('AppComponent bootstrapped! Angular2 is running!'),
     error => console.log(error)
 );
