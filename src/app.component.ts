@@ -5,8 +5,7 @@ import { HomeComponent } from "./app/home.component";
     moduleId: module.id,
     selector: 'app-component',
     templateUrl: './app.component.html',
-    styleUrls: ["./app.component.css"],
-    directives: [HomeComponent]
+    styleUrls: ["./app.component.css"]
 })
 export class AppComponent implements OnInit {
     message: string;
